@@ -2,8 +2,8 @@ package Ejercicio5;
 
 public class Main {
     public static void main(String[] args) {
-        MP4 Dispositivo1 = new MP4();
-        MP3 Dispositivo2 = new MP3();
+        VideoPlayer Dispositivo1 = new MP4();
+        AudioPlayer Dispositivo2 = new MP3();
 
         Dispositivo1.encender();
         Dispositivo1.mostrarVideo();
